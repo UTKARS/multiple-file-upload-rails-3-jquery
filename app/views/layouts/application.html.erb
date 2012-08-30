@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Testapp</title>
+
+<%= stylesheet_link_tag :all %>
+<%= csrf_meta_tag %>
+
+<%= javascript_include_tag 'jquery.min' %>
+<%= javascript_include_tag 'jquery-ui-1.8.13.custom.min' %>
+<%= javascript_include_tag 'jquery.tmpl.min' %>
+<%= javascript_include_tag 'jquery.iframe-transport' %>
+<%= javascript_include_tag 'jquery.fileupload' %>
+<%= javascript_include_tag 'jquery.fileupload-ui' %>
+<%= javascript_include_tag 'jquery_ujs' %>
+<%= javascript_include_tag 'application' %>
+
+<%= stylesheet_link_tag 'jquery.fileupload-ui' %>
+  
+  
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
